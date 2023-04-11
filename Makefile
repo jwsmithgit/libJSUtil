@@ -1,10 +1,13 @@
 # Project Name
-TARGET = jsutil
+TARGET = libJSUtil
 
 # Directories
 INC_DIR = include
 SRC_DIR = src
 OBJ_DIR = obj
+
+# Create the obj directory
+$(shell mkdir -p $(OBJ_DIR))
 
 # Compiler Flags
 CC = g++
