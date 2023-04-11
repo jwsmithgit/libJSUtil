@@ -1,4 +1,5 @@
 #include "PercentValueCollection.h"
+#include <stdexcept>
 
 template <typename T>
 PercentValueCollection<T>::PercentValueCollection() : m_value(0) {}

@@ -1,4 +1,5 @@
 #include "TweenManager.h"
+#include <algorithm>
 
 void TweenManager::update(float deltaTime)
 {

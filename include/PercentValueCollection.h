@@ -1,7 +1,6 @@
 #pragma once
 
 #include <map>
-#include <stdexcept>
 #include "PercentValue.h"
 
 template <typename T>
