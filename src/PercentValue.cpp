@@ -11,5 +11,9 @@ void PercentValue<T>::setPercent(double percent)
     {
         percent = 100;
     }
-    setValue(this->getMinValue() + static_cast<T>((this->getMaxValue() - this->getMinValue()) * percent / 100.0));
+    this->setValue(this->getMinValue() + static_cast<T>((this->getMaxValue() - this->getMinValue()) * percent / 100.0));
 }
+
+template class PercentValue<int>;
+template class PercentValue<float>;
+template class PercentValue<double>;

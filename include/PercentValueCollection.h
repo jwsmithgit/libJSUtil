@@ -13,6 +13,6 @@ public:
     PercentValue<T>* findPercentValue(double percent);
 
 private:
-    std::map<std::pair<double, double>, PercentValue<T>> m_percentValues;
+    std::map<std::pair<double, double>, PercentValue<T>*> m_percentValues;
     T m_value;
 };

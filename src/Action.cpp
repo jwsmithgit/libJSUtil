@@ -1,4 +1,5 @@
 #include "Action.h"
+#include <algorithm>
 
 template<typename R, typename... Args>
 void Action<R, Args...>::add(Function function) {
